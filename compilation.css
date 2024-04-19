@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+	font-family: 'poppins' ,sans-serif;
+}
+
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+body {
+	min-height: 100vh;
+	background: var(--bg-color);
+	color: #fff;
+}
+
+.aboutHome a span{
+	position: fixed;
+    background: aqua;
+	color: #222;
+	left: 0;
+	top: 0;
+	width: 80px;
+	height: 30px;
+	margin: 5px;
+	padding: 5px;
+	justify-content: center;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px #000;
+	transition: .5s;
+}
+.aboutHome a span:hover{
+	background: var(--bg-color);
+	color: #00ff00;
+	box-shadow: 0 10px 30px #00ff00;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 40px 20px 0 20px;
+}
+.container .heading {
+	width: 50%;
+	padding-bottom: 50px;
+}
+.container .heading h2 {
+	font-size: 3em;
+	font-weight: bolder;
+	border-bottom: 2px solid #222;
+}
+.container .heading h2 span {
+	font-weight: 100;
+	color: #00ff00;
+}
+.container  .box {
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+}
+.container .box .logMain{
+	display: flex;
+	flex-direction: column;
+	width: 32.5%;
+}	
+.container .box .logMain img{
+	width: 100%;
+	padding-bottom: 15px;
+	border-radius: 5px;
+}
+.container .box .logMain h3 {
+	font-size: 1.5em;
+	font-weight: bolder;
+	border-bottom: 2px solid #222;
+	text-align: center;
+}
+.container .box .logMain h3 span {
+	font-weight: 100;
+	color: #ff1046;
+}

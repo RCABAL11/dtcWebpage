@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	scroll-behavior: smooth;
+	font-family: 'poppins' ,sans-serif;
+}
+
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+body {
+	min-height: 100vh;
+	background: url("background1.jpg");
+	color: #fff;
+}
+section{
+	min-height: 100vh;
+	padding: 50px 20%;
+}
+
+.aboutBack a span{
+	position: fixed;
+    background: transparent;
+	color: #fff;
+	right: 0;
+	top: 0;
+	width: 80px;
+	height: 30px;
+	margin: 5px;
+	padding: 5px;
+	justify-content: center;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px #000;
+	transition: .5s;
+}
+.aboutBack a span:hover{
+	color: #00ff00;
+	box-shadow: 0 10px 30px #00ff00;
+}
+.aboutHome a span{
+	position: fixed;
+    background: transparent;
+	color: #fff;
+	left: 0;
+	top: 0;
+	width: 80px;
+	height: 30px;
+	margin: 5px;
+	padding: 5px;
+	justify-content: center;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px #000;
+	transition: .5s;
+}
+.aboutHome a span:hover{
+	color: #00ff00;
+	box-shadow: 0 10px 30px #00ff00;
+}
+
+/* Faculty */
+
+.faculty {
+	background: var(--bg-color);
+}
+.faculty .hr-base {
+	border: 1px solid #fff;
+	width: 100%;
+}
+.faculty h2 {
+	text-align: center;
+	color: #fff;
+	font-weight: 800;
+	font-family: arial;
+}
+.head {
+	position: absolute;
+	width: 330px;
+	height: 50px;
+	top: 260px;
+	left: 540px;
+	border-radius: 5px;
+	padding-top: 10px;
+	background: var(--second-bg-color);
+	color: #fff;
+	box-shadow: 0 15px 35px #000;
+}
+.head1 img{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 150px;
+	left: 650px;
+	border-radius: 50%;
+}
+.faculty h5 {
+	text-align: center;
+}
+.faculty h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+.faculty .sec {
+	position: absolute;
+	width: 330px;
+	height: 50px;
+	top: 460px;
+	left: 540px;
+	border-radius: 5px;
+	padding-top: 10px;
+	background: var(--second-bg-color);
+	color: #fff;
+	box-shadow: 0 15px 35px #000;
+}
+.sec1 img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 350px;
+	left: 650px;
+	border-radius: 50%;
+}
+.faculty .roomA {
+	position: absolute;
+	width: 330px;
+	height: 50px;
+	top: 460px;
+	left: 140px;
+	border-radius: 5px;
+	padding-top: 10px;
+	background: var(--second-bg-color);
+	color: #fff;
+	box-shadow: 0 15px 35px #000;
+}
+.roomA1 img{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 350px;
+	left: 250px;
+	border-radius: 50%;
+}
+.faculty .roomB {
+	position: absolute;
+	width: 330px;
+	height: 50px;
+	top: 460px;
+	left: 940px;
+	border-radius: 5px;
+	padding-top: 10px;
+	background: var(--second-bg-color);
+	color: #fff;
+	box-shadow: 0 15px 35px #000;
+}
+.roomB1 img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 350px;
+	left: 1050px;
+	border-radius: 50%;
+	object-fit: cover;
+}

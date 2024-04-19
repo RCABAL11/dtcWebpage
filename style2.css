@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+:root {
+    --bg-color: #081b29;
+    --second-bg-color: #112e42;
+    --text-color: #ededed;
+    --main-color: #00abf0;
+}
+html {
+    font-size: 62.5%;
+    
+}
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+ .title {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: 900;
+	margin: 40px;
+	border-bottom: 1px solid #fff;
+	top: 0;
+}
+/* BSIS Project */
+
+.proHeader header nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 100;
+	margin-top: 50px;
+}
+
+.proHeader header nav a{
+	position: relative;
+    font-size: 15px;	
+    font-weight: 900;
+	font-family: sans-serif;
+	padding: 10px 50px;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 10px 20px #000;
+	margin-right: 40px;
+	
+}
+.proHeader header nav a:hover {
+	
+	color: #ff1046;
+	box-shadow: 0 10px 20px #ff1046;
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+
+
+/* Box */
+.box {
+	background: var(--second-bg-color);
+	justify-content: center;
+	align-items: center;
+	
+}
+.body{
+	width: 400px;
+	height: 400px;
+	top: 50%;
+	left: 250px;
+	display: flex;
+}
+.container {
+	width: 400px;
+    height: 400px;
+    position: relative;
+    font-family: arial;
+    background-color: #ff6600;
+    color: #fff;
+	justify-content: center;
+    text-align: center;
+    left: 385px;
+	font-size: 15px;
+}
+.box1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 50px;
+    background: #009900;
+}
+.box2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 250px;
+    background: #009900;
+}
+.box3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 150px;
+    background: blue;
+}
+.box4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    left: 50px;
+    background: #009900;
+}
+.box5 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    left: 250px;
+    background: #009900;
+}
